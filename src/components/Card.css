@@ -1,0 +1,85 @@
+@import url('https://v1.fontapi.ir/css/SFUIText:500');
+
+.card__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 336px;
+    height: 352px;
+    border: 1px solid darkgrey;
+}
+.card__image{
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card__name{
+    /*font-family: 'SF UI Text';*/
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #000000;
+
+}
+.card__price{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #000000;
+}
+
+.card__content{
+    width: 316px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;;
+    padding-top: 20px;
+}
+
+.icon__button{
+    border: none;
+    background-color:#FFFFFF ;
+    cursor: pointer;
+}
+
+
+.icon__button-like:hover{
+    color: red;
+}
+
+.card__content__icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+}
+.icon-shop{
+    width: 20px;
+    height: 20px;
+}
