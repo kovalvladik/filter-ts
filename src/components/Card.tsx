@@ -46,7 +46,7 @@ const Card: React.FC<props> = ({name, image, price, id, addLike, addShop}) => {
                     </button>
                     <button
                         onClick={() => handleClickLike()}
-                        className='icon__button'>
+                        className='icon__button '>
                         <FavoriteBorderIcon className='icon__button-like'
                                             style={{color: `${addLikes ? "red" : 'black'}`}}/>
                     </button>
