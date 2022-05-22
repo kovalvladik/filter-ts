@@ -19,7 +19,7 @@
 
 .card__name{
     /*font-family: 'SF UI Text';*/
-    font-family:'SF Pro Display', sans-serif;
+    font-family:'SF UI Text', sans-serif for src;
     src: url("../../public/fonts/SFUIText-Regular.ttf") ;    font-style: normal;
     font-weight: 500;
     font-size: 16px;

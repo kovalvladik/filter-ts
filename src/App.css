@@ -36,7 +36,7 @@
 }
 
 .Header{
-    font-family:'SF Pro Display', sans-serif;
+    font-family:'SF Pro Display', sans-serif for src;
     src: url("../public/fonts/SFProDisplay-Regular.ttf") ;
     font-style: normal;
     font-weight: 600;
@@ -45,7 +45,7 @@
 }
 
 .header-select{
-    font-family:'SF Pro Display', sans-serif;
+    font-family:'SF Pro Display', sans-serif for src;
     src: url("../public/fonts/SFProDisplay-Regular.ttf") ;
     font-style: normal;
     font-weight: 400;
