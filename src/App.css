@@ -1,19 +1,24 @@
 
 
 .App {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 100px;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*flex-direction: column;*/
+    /*width:100vh ;*/
+    /*padding-left: 100px;*/
+    /*padding-right: 200px;*/
+    /*padding-bottom: 100px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     /*padding: 50px;*/
 }
 
 .Card__container {
-    width: 100%;
+
+    width: 90%;
     display: flex;
+    justify-content: flex-start;
+    /*width: 100%;*/
+    /*display: flex;*/
     flex-wrap: wrap;
 }
 .Card__container__main{
@@ -22,7 +27,11 @@
 }
 .BasicSelect__container {
 
-    width: 80%;
+    width: 90%;
+    /*display: flex;*/
+    justify-content: flex-start;
+
+    /*width: 80%;*/
     display: flex;
     flex-direction: row;
     padding: 32px 0 32px  0;
@@ -41,10 +50,19 @@
 }
 
 .BasicBreadcrumbs__container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
     padding: 32px 0 32px  0;
+}
+.Header__container{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .Header{
+
     font-family:'SF Pro Display', sans-serif for src;
     src: url("../public/fonts/SFProDisplay-Regular.ttf") ;
     font-style: normal;

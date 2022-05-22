@@ -30,7 +30,7 @@ function App() {
             <div className='BasicBreadcrumbs__container'>
                 <BasicBreadcrumbs/>
             </div>
-            <div>
+            <div className='Header__container'>
                 <a className='Header'>
                     Комплекты стеллажных систем
                 </a>
