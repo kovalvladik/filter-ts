@@ -30,6 +30,8 @@ export enum actionTypes {
     SORT_DATA_UP = "SORT_DATA_UP",
     FILTER_DATA = "FILTER_DATA",
     SORT_DATA_DOWN = "SORT_DATA_DOWN",
+    ADD_LOCAL_LIKE = "ADD_LOCAL_LIKE",
+    ADD_LOCAL_SHOP = "ADD_LOCAL_SHOP",
 
 
 }
@@ -38,7 +40,8 @@ interface customAction {
     type: actionTypes.DATA_SET |
         actionTypes.ADD_SHOP | actionTypes.ADD_LICKED |
         actionTypes.DEL_SHOP | actionTypes.DEL_LICKED |
-        actionTypes.SORT_DATA_DOWN | actionTypes.FILTER_DATA | actionTypes.SORT_DATA_UP,
+        actionTypes.SORT_DATA_DOWN | actionTypes.FILTER_DATA | actionTypes.SORT_DATA_UP |
+        actionTypes.ADD_LOCAL_LIKE | actionTypes.ADD_LOCAL_SHOP,
     // type: actionTypes.DATA_SET | actionTypes.COUNT_MINUS | actionTypes.START_INT,
     payload: any[]
 }

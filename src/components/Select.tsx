@@ -31,17 +31,13 @@ export default function BasicSelect({one, two}: any) {
 
     return (
         <Box sx={{
-            maxHeight: '40px',
-            minHeight: '40px',
-            height: '40px',
+
             minWidth: '120px',
             width: '288px',
             maxWidth: '288px',
             backgroundColor: '#F2F2F2',
-            boxSizing: ' content-box',
-            // margin: '24px'
         }}>
-            <FormControl fullWidth>
+            <FormControl fullWidth >
                 <InputLabel id="demo-simple-select-label"></InputLabel>
                 <Select
                     labelId="demo-simple-select-label"

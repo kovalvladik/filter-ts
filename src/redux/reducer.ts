@@ -1,6 +1,9 @@
 import {actionTypes, combineAction, initState} from "../types";
 
 
+const shopLoc = localStorage.getItem('shop')
+console.log(shopLoc)
+
 const defaultState: initState = {
     data: [],
     dataFiltered: [],
@@ -25,9 +28,10 @@ const reducer = (state = defaultState, action: combineAction): initState => {
             return {
                 ...state,
                 shop: [...state.shop, ...state.data.filter((el?: any) => Number(el.id) === Number(action.payload) ?
-                    {...el, addShop: true} : {...el}
+                    {...el, addShop: true} :null
                 )],
             }
+
         case actionTypes.SORT_DATA_UP:
             return {
                 ...state,
@@ -65,6 +69,9 @@ const reducer = (state = defaultState, action: combineAction): initState => {
         case actionTypes.ADD_SHOP_TRUE:
             return {
                 ...state,
+                shop:state.data.map((el: any) => el.addShop === false ?
+                    {...el, addShop: true} : {...el}),
+
                 // data:[...state.liked.filter((el?:any)=>Number(el.id)!==Number(acti))],
             }
 

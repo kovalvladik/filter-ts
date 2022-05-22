@@ -38,16 +38,16 @@ function App() {
                 <BasicBreadcrumbs/>
             </div>
             <div>
-                <a>
+                <a className='Header'>
                     Комплекты стеллажных систем
                 </a>
             </div>
             <div className='BasicSelect__container'>
-                <div>
+                <div className='header-select'>
                     Сортировать по:
                     <BasicSelect one={'Цена по возростанию'} two={'Цена по убыванию'}/>
                 </div>
-                <div>
+                <div className='header-select BasicSelect__Sort '>
                     Материал
                     <BasicSelect one={'Металл'} two={'Дерево'}/>
                 </div>
@@ -55,7 +55,7 @@ function App() {
             </div>
 
             <div className='Card__container'>
-                {dataFiltered.length>0?dataFiltered.map((el: any) => (
+                {dataFiltered.length > 0 ? dataFiltered.map((el: any) => (
                     <div className={'Card__container__main'}>
                         <Card id={el['id']}
                               image={el['image']['url']}
@@ -66,7 +66,7 @@ function App() {
                         />
                     </div>
 
-                )):data.map((el: any) => (
+                )) : data.map((el: any) => (
                     <div className={'Card__container__main'}>
                         <Card id={el['id']}
                               image={el['image']['url']}
@@ -78,18 +78,7 @@ function App() {
                     </div>
 
                 ))}
-                {/*{data.map((el: any) => (*/}
-                {/*    <div className={'Card__container__main'}>*/}
-                {/*        <Card id={el['id']}*/}
-                {/*              image={el['image']['url']}*/}
-                {/*              name={el['name']}*/}
-                {/*              price={el['price']}*/}
-                {/*              addShop={el['addShop']}*/}
-                {/*              addLike={el['addLike']}*/}
-                {/*        />*/}
-                {/*    </div>*/}
 
-                {/*))}*/}
             </div>
         </div>
     );
