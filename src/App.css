@@ -21,6 +21,8 @@
     display: flex;
     flex-direction: row;
     padding: 32px 0 32px  0;
+    flex: 1 0 15%; /* explanation below */
+
 
 }
 .BasicSelect_Sort{
