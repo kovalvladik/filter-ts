@@ -19,8 +19,8 @@
 
 .card__name{
     /*font-family: 'SF UI Text';*/
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-style: normal;
+    font-family:'SF Pro Display', sans-serif;
+    src: url("../../public/fonts/SFUIText-Regular.ttf") ;    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;

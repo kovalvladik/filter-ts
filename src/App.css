@@ -1,6 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
 
-@import url(//db.onlinewebfonts.com/c/5ad142d0e49ca868b1530c30a47c625f?family=SF+UI+Text);
 
 .App {
     padding-left: 200px;
@@ -38,7 +36,8 @@
 }
 
 .Header{
-    font-family: 'SF Pro Display';
+    font-family:'SF Pro Display', sans-serif;
+    src: url("../public/fonts/SFProDisplay-Regular.ttf") ;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -46,7 +45,8 @@
 }
 
 .header-select{
-    font-family: 'SF Pro Display';
+    font-family:'SF Pro Display', sans-serif;
+    src: url("../public/fonts/SFProDisplay-Regular.ttf") ;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

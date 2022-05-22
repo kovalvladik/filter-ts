@@ -14,7 +14,6 @@ export default function BasicSelect({one, two}: any) {
 
     const handleChange = (event: SelectChangeEvent) => {
         setAge(event.target.value as string);
-        console.log(event.target.value as string)
         // event.target.value as string==='Металл'?dispatch({type: actionTypes.FILTER_DATA, payload: 2}):
         //     dispatch({type: actionTypes.FILTER_DATA, payload: 1})
         if (event.target.value as string === 'Металл') {
