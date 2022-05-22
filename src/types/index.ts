@@ -13,7 +13,6 @@ export interface props {
     addShop: boolean,
     addLike: boolean,
     // onClick: () => number
-
 }
 
 export enum actionTypes {
@@ -32,8 +31,6 @@ export enum actionTypes {
     SORT_DATA_DOWN = "SORT_DATA_DOWN",
     ADD_LOCAL_LIKE = "ADD_LOCAL_LIKE",
     ADD_LOCAL_SHOP = "ADD_LOCAL_SHOP",
-
-
 }
 
 interface customAction {
@@ -42,7 +39,6 @@ interface customAction {
         actionTypes.DEL_SHOP | actionTypes.DEL_LICKED |
         actionTypes.SORT_DATA_DOWN | actionTypes.FILTER_DATA | actionTypes.SORT_DATA_UP |
         actionTypes.ADD_LOCAL_LIKE | actionTypes.ADD_LOCAL_SHOP,
-    // type: actionTypes.DATA_SET | actionTypes.COUNT_MINUS | actionTypes.START_INT,
     payload: any[]
 }
 

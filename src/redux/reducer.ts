@@ -1,9 +1,5 @@
 import {actionTypes, combineAction, initState} from "../types";
 
-
-const shopLoc = localStorage.getItem('shop')
-console.log(shopLoc)
-
 const defaultState: initState = {
     data: [],
     dataFiltered: [],

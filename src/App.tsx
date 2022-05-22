@@ -24,13 +24,6 @@ function App() {
     useEffect(() => {
         getData()
     }, [])
-    //
-    // const ClickHandlerLiked = (id:number) => {
-    //
-    // }
-    // const ClickHandlerBusket = (id) => {
-    //
-    // }
 
     return (
         <div className="App">
@@ -56,7 +49,7 @@ function App() {
 
             <div className='Card__container'>
                 {dataFiltered.length > 0 ? dataFiltered.map((el: any) => (
-                    <div className={'Card__container__main'}>
+                    <div key={el.id}  className={'Card__container__main'}>
                         <Card id={el['id']}
                               image={el['image']['url']}
                               name={el['name']}
@@ -67,7 +60,7 @@ function App() {
                     </div>
 
                 )) : data.map((el: any) => (
-                    <div className={'Card__container__main'}>
+                    <div key={el.id} className={'Card__container__main'}>
                         <Card id={el['id']}
                               image={el['image']['url']}
                               name={el['name']}
