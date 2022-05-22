@@ -36,11 +36,11 @@ function App() {
                 </a>
             </div>
             <div className='BasicSelect__container'>
-                <div className='header-select'>
+                <div className='header-select BasicSelect__Sort'>
                     Сортировать по:
                     <BasicSelect one={'Цена по возростанию'} two={'Цена по убыванию'}/>
                 </div>
-                <div className='header-select BasicSelect__Sort '>
+                <div className='header-select  '>
                     Материал
                     <BasicSelect one={'Металл'} two={'Дерево'}/>
                 </div>
