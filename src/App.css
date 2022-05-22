@@ -18,7 +18,7 @@
     flex-wrap: wrap;
 }
 .Card__container__main{
-    flex: 1 0 15%;
+    /*flex: 1 0 15%;*/
     margin: 24px 20px 24px 0 ;
 }
 .BasicSelect__container {
