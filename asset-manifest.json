@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/filter-ts/static/css/main.8175a91e.css",
+    "main.js": "/filter-ts/static/js/main.74fe6087.js",
+    "index.html": "/filter-ts/index.html",
+    "main.8175a91e.css.map": "/filter-ts/static/css/main.8175a91e.css.map",
+    "main.74fe6087.js.map": "/filter-ts/static/js/main.74fe6087.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8175a91e.css",
+    "static/js/main.74fe6087.js"
+  ]
+}
