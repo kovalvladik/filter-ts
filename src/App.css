@@ -1,15 +1,13 @@
 
 
 .App {
-    /*width:100vh ;*/
-    /*padding-left: 100px;*/
-    /*padding-right: 200px;*/
-    /*padding-bottom: 100px;*/
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /*padding: 50px;*/
+
 }
 
 .Card__container {
@@ -17,8 +15,6 @@
     width: 90%;
     display: flex;
     justify-content: flex-start;
-    /*width: 100%;*/
-    /*display: flex;*/
     flex-wrap: wrap;
 }
 .Card__container__main{
@@ -26,17 +22,12 @@
     margin: 24px 20px 24px 0 ;
 }
 .BasicSelect__container {
-
     width: 90%;
-    /*display: flex;*/
     justify-content: flex-start;
-
-    /*width: 80%;*/
     display: flex;
     flex-direction: row;
     padding: 32px 0 32px  0;
     flex-wrap: wrap;
-
     flex: 1 0 15%; /* explanation below */
 
 
